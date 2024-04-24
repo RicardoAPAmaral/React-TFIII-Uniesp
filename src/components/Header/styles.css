@@ -1,17 +1,18 @@
-.header{
-display: flex;
-align-items: center;
-justify-content: center;
-position: sticky;
-background-color: var(--color-primary-varian);
-height: 135px;
-font-size: 25px;
-
-
+:root {
+    --color-primary-variant: #ff0000; /* Defina a variável com a cor desejada */
 }
 
-.header_title{
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    background-color: var(--color-primary-variant);
+    height: 135px;
+    font-size: 1.563rem;
+}
 
+.header_title {
     margin: 0 auto;
     color: #fff;
 }
